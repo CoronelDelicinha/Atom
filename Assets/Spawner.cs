@@ -39,6 +39,7 @@ public class Spawner : MonoBehaviour {
             {
                 Destroyer.DestroyNucleon();
                 Destroyer.DestroyElectron();
+                ElectronSpawner.elect = ElectronSpawner.ElectronSettings(ElectronSpawner.elect, colors);
                 ElectronNumber--;
                 NucleonNumber -= 2;
             }

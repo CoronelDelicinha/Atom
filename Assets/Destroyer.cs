@@ -22,6 +22,7 @@ public class Destroyer : MonoBehaviour {
             {
                 empty = false;
                 Destroy(electronLayers[it1].taggedElectrons[electronLayers[it1].taggedElectrons.Length - 1]);
+
             }
         }
     }
